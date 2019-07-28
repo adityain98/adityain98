@@ -1,0 +1,84 @@
+body{
+    background-image: url(background-photo.jpg);
+    background-size: 1920px 1080px;
+    font-family: helvetica;
+    margin:0;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+nav{
+    margin-left:60%;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+nav a{
+    display: inline-block; 
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color:#000;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+li{
+    float: left;
+    margin: 0px 20px;
+}
+
+.contact-us{
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-align: center
+}
+
+.caption {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.caption p{
+    font-size:40px;
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+
+.footer span{
+    width: 100%;
+    position: relative;
+    left: 75%;
+}
+
+.footer img{
+    height: auto;
+    width: 24px;
+}
+
+.footer .ic-wa, .footer .ic-linkedin, 
+.footer .ic-fb, .footer .ic-ig{
+    margin-right: 20px;
+}
+
+.ic-wa{
+    padding-right: 10px;
+}
